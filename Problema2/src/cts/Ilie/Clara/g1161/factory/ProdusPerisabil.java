@@ -1,0 +1,27 @@
+package cts.Ilie.Clara.g1161.factory;
+
+public class ProdusPerisabil implements ProdusGeneric{
+    private String nume;
+    private float pret;
+    private boolean garantie;
+
+    public ProdusPerisabil(String nume, float pret, boolean garantie) {
+        this.nume = nume;
+        this.pret = pret;
+        this.garantie = garantie;
+    }
+
+    @Override
+    public String getNumeProdus() {
+        return nume;
+    }
+
+    @Override
+    public String toString() {
+        return "ProdusPerisabil{" +
+                "nume='" + nume + '\'' +
+                ", pret=" + pret +
+                ", garantie=" + garantie +
+                '}';
+    }
+}

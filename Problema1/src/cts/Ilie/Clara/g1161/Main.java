@@ -1,4 +1,4 @@
-package cts.Ilie.Clara.g1161.factory.main;
+package cts.Ilie.Clara.g1161;
 
 import cts.Ilie.Clara.g1161.factory.AMasina;
 
